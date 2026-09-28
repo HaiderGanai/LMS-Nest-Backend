@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+vendor/
+packages/
+*.egg-info/
+
+# Build outputs
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+*.rdb
+
+# Environment files
+.env
+.env.local
+.env.*.local
+venv/
+env/
+ENV/
+.venv
+.envrc
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.pytest_cache/
+.tox/
+*.test.js
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# Package manager lock files (optional - team preference)
+# package-lock.json
+# yarn.lock
+# Gemfile.lock
+# composer.lock
+
+# Ignore .md files only in the root directory
+/*.md
+
+# Ignore .md files in all 'docs' folders anywhere in the project
+**/docs/*.md
